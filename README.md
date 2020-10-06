@@ -3,7 +3,7 @@ Jeu de carte
 
 # Installation
 
-Aprés avoir extraire le zip (avec 7-zip)
+Aprés avoir extraire le zip (avec 7-zip) ou cloner le projet
 
  1. Build de l'environnement:
 
