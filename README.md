@@ -14,11 +14,13 @@ NB : 3 volumes partagés a valider ('logs\nginx' , 'logs\symfony' et 'symfony')
 2. installation des bundles:
 
     windows => winpty docker exec -ti php-fpm composer install
+	
     linux => docker exec -ti php-fpm composer install
 
 3. Lancer les tests du code source, le sénario demandé sera affiché sur la console
 
     windows => winpty docker exec -ti php-fpm php bin/phpunit tests
+	
     linux => docker exec -ti php-fpm php bin/phpunit tests
 
 Exemple de jeu:
